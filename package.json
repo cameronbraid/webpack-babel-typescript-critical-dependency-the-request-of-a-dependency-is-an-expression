@@ -1,0 +1,18 @@
+{
+	"name": "webpack-babel-typescript-critical-dependency-the-request-of-a-dependency-is-an-expression",
+	"version": "0.0.0",
+	"scripts": {
+		"devserver": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --config webpack.config.js"
+	},
+	"dependencies": {
+		"@babel/cli": "^7.12.0",
+		"@babel/core": "^7.12.0",
+		"@babel/preset-env": "^7.12.0",
+		"@babel/preset-typescript": "^7.12.0",
+		"awesome-typescript-loader": "^5.2.1",
+		"typescript": "^3",
+		"webpack": "^4.44.2",
+		"webpack-cli": "^3",
+		"webpack-dev-server": "^3.11.0"
+	}
+}

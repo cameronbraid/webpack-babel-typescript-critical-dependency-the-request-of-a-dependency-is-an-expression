@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+		"checkJs": true,
+		"allowJs": true,
+		"target": "esnext",
+		"moduleResolution": "node",
+		"module": "esnext",
+		"baseUrl": ".",
+		"lib": ["esnext", "es2017", "dom"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js"],
+	"exclude": ["node_modules"],
+	"awesomeTypescriptLoaderOptions": {
+		"useBabel": true,
+		"babelOptions": { 
+      "configFile": "./babel.config.js"
+    },
+		"babelCore": "@babel/core"
+	}
+}
